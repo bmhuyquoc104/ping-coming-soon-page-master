@@ -105,6 +105,7 @@ main {
   background-color: var(--clr_primary);
   border: none;
   border-radius: 25px;
+  cursor: pointer;
   color: whitesmoke;
   font-size: clamp(0.8rem, 2vh, 1.2rem);
   font-weight: var(--fw_xl);
