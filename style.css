@@ -149,19 +149,30 @@ main {
 
   .card__info .form {
     display: flex;
-    width: 120%;
+    width: 100%;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 0.5rem;
   }
 
+ 
+
   .card__info .form input{
-      width: 70%;
+      width: 60%;
       border:1px solid var(--clr_neutral);
   }
 
   .card__info .form button {
       width :30%;
   }
+
+  .card__info :nth-child(2){
+    text-align: left;
+    order: 3;
+    width: 100%;
+    padding: 0 1.2em;
+    margin-top: 0.5em;
+}
 
   .card__image {
     width: 100%;
